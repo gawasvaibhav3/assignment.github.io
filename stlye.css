@@ -18,16 +18,17 @@ body{
 .box1{
     margin-top: 3%;
     width: 400px;
-    height: 700px;
-    padding-bottom: 6%;
+    height: 648px;
+    padding-bottom: 5.8%;
     border-top: 0%;
     background-color: hsl(176, 71%, 96%);
     border-radius: 12px;
     border-style: groove;
     border-width: 1px;
     border-color: rgb(187, 244, 196);
-    
 }
+
+
 
 .box2{
     margin-top: 1%;
