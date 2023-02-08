@@ -56,6 +56,8 @@ p#intro{
     padding-left: 20%;
     font-size:11px;
     background-image: linear-gradient(to left,#47bce7 ,#30e782 );
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
     border-style: ridge;
     border-width: 1px;
     border-color: rgb(85, 187, 231);
