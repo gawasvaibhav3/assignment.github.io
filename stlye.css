@@ -21,6 +21,7 @@
     border-style: groove;
     border-width: 1px;
     border-color: rgb(187, 244, 196);
+    
 }
 
 .box2{
@@ -32,6 +33,7 @@
     border-style: solid;
     border-width: 1px;
     border-color: rgb(213, 217, 219);
+    box-shadow: 0.1px 5px 10px 0px #888888;
 }
 
 .box3{
@@ -41,6 +43,7 @@
     border-style: solid;
     border-width: 1px;
     border-color: rgb(213, 217, 219);
+    box-shadow: 0.1px 5px 10px 0px #888888;
 }
 
 
