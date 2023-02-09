@@ -16,10 +16,10 @@ body{
 
 
 .box1{
-    margin-top: 3%;
-    width: 400px;
-    height: 648px;
-    padding-bottom: 4%;
+    margin-top: 5%;
+    width: 417px;
+    height: 639px;
+    padding-bottom: 8%;
     border-top: 0%;
     background-color: hsl(176, 71%, 96%);
     border-radius: 12px;
@@ -31,10 +31,9 @@ body{
 
 
 .box2{
-    margin-top: 1%;
+    margin-top: 5%;
     width: 400px;
     height: 750px;
-    padding-right: -4%;
     padding-left: 2%;
     border-style: solid;
     border-width: 1px;
@@ -43,7 +42,7 @@ body{
 }
 
 .box3{
-    margin-top: 1%;
+    margin-top: 5%;
     width: 450px;
     height: 750px;
     border-style: solid;
