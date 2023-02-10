@@ -53,7 +53,7 @@ img#img2 {
 }
 
 
-@media screen and (max-width:600px)
+@media screen and (max-width:1046px)
 {
     .title{
         margin-left: 0.1rem;
