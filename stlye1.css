@@ -53,38 +53,40 @@ img#img2 {
 }
 
 
-@media screen and (max-width:900px)
+@media screen and (max-width:600px)
 {
     .title{
+        margin-left: 0.1rem;
         font-size: 1rem;
     }
 
     .left{
-        margin-top: -.5rem;
-        width: 14rem;
+        margin-left: 0.2rem;
+        margin-top: -0.5rem;
+        width: 10rem;
     }
 
     .right{
-        margin-left: -.5rem;
-        margin-top: -.5rem;
-        width: 14rem;
+        margin-left: 11rem;
+        margin-top: -6.2rem;
+        width: 10rem;
     }
 
     .container{
-        font-size: .5rem;
+        font-size: 0.3rem;
     }
 
     img#img1{
-        margin-left: -.6rem;
-        margin-bottom: -.4rem;
+        margin-left: -0.8rem;
+        margin-bottom: 0.5rem;
         margin-top: 2rem;
-        width:7rem ;
+        width:5rem ;
     }
 
     img#img2{
         margin-left: -.5rem;
         margin-bottom: -.rem;
-        margin-top: 4rem;
-        width:3rem ;
+        margin-top: 2rem;
+        width:2rem ;
     }
 }
