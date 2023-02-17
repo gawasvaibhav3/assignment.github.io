@@ -1,94 +1,140 @@
 
-.container{
+.container
+{
+    display: flex;
     font-size: 1.2rem;
-    margin-top: 1rem;
-    display:flex;
-    justify-content: left;
-    align-items: center;
-    flex-wrap: wrap;
+    margin-top: -7em;
+    margin-right: 1em;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
-img#img1 {
-    float: right;
-    padding-left: 1rem;
-    padding-top: .1rem;
-    padding-bottom: .1rem;
-    shape-outside: border-box;
-    image-rendering: pixelated;
-    margin-left: 1rem;
-    margin-top: 5rem;
-    width: 20rem;
-}
-
-img#img2 {
-    float: right;
-    width: 10rem;
-    padding-left: .8rem;
-    shape-outside: border-box;
-    image-rendering: pixelated;
-    margin-left: 1rem;
-    margin-top: 8.2rem;
-}
-
-.title {
-    margin-left: 1rem;
-    font-size: 2rem;
-}
-
-.left {
-    width: 37.5rem;
-    height: 6.25rem;
-    text-align: justify;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-.right {
-    width: 37.5rem;
-    height: 6.25rem;
-    text-align: justify;
-    margin-left: .1rem;
-}
-
-
-@media only screen and (max-width:700px)
+img#img1 
 {
-    .title{
-        margin-left: 0.1rem;
-        font-size: 1rem;
-    }
-
-    .left{
-        font-size: 0.5rem;
-        margin-left: 0.2rem;
-        margin-top: -0.5rem;
-        width: 11rem;
-    }
-
-    .right{
-        font-size: 0.5rem;
-        margin-left: 11.7rem;
-        margin-top: -6.2rem;
-        width: 11rem;
-    }
-
-    .container{
-        font-size: 0.3rem;
-    }
-
-    img#img1{
-        margin-left: -0.8rem;
-        margin-bottom: 0.5rem;
-        margin-top: 6rem;
-        width:8rem ;
-    }
-
-    img#img2{
-        margin-left: -.5rem;
-        margin-bottom: -.rem;
-        margin-top: 2rem;
-        width:3rem ;
-    }
+    shape-outside: border-box;
+    padding-left: 1em;
+    margin-top: 3.3000000000000007em;
+    margin-left: 1em;
+    float: right;
+    width: 218px;
+    aspect-ratio: auto 460 / 345;
+    height: 132px;
 }
+
+img#img2 
+{
+    width: 166px;
+    shape-outside: border-box;
+    padding-top: 1em;
+    padding-left: 1em;
+    aspect-ratio: auto 460 / 345;
+    height: 104px;
+    float: right;
+    margin-right: 0em;
+    margin-left: 1em;
+    margin-top: 7.300000000000001em;
+}
+.title 
+{
+    font-size: 3rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 20px;
+    margin-inline-end: 0px;
+}
+
+.left 
+{
+    text-align: justify;
+    display: block;
+    padding-top: 5em;
+    padding-left: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.right 
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-top: 5em;
+    padding-left: 1em;
+    text-align: justify;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+@media only screen and (max-device-width: 768px)
+{
+    .container
+    {
+        display: block;
+        font-size: 1.2rem;
+        margin-top: -12em;
+        margin-right: 1em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .title 
+    {
+        font-size: 1.5rem;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 20px;
+        margin-inline-end: 8px;
+    }
+
+    .left 
+    {
+        text-align: justify;
+        display: block;
+        padding-top: 5em;
+        padding-left: 1em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 6px;
+    }
+
+    .right 
+    {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        padding-top: 0em;
+        padding-left: 1em;
+        text-align: justify;
+        margin-inline-start: 0px;
+        margin-inline-end: 6px;
+    }
+
+    img#img1 
+    {
+        margin-top: 0.3em;
+        margin-left: 1em;
+        float: right;
+        width: 226px;
+        aspect-ratio: auto 460 / 345;
+        height: 147px;
+    }
+
+    img#img2 
+    {
+        float: left;
+        width: 201px;
+        aspect-ratio: auto 460 / 345;
+        margin-left: -1em;
+        height: 102px;
+        padding-right: 1em;
+        margin-top: -0.7em;
+    }
+
+}
+
+
