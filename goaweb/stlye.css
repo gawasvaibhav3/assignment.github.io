@@ -1,0 +1,197 @@
+
+.containers{
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.box1{
+    margin-top: 3%;
+    width: 400px;
+    height: 700px;
+    padding-bottom: 6%;
+    border-top: 0%;
+    background-color: hsl(176, 71%, 96%);
+    border-radius: 12px;
+    border-style: groove;
+    border-width: 1px;
+    border-color: rgb(187, 244, 196);
+}
+
+.box2{
+    margin-top: 1%;
+    width: 400px;
+    height: 750px;
+    padding-right: -4%;
+    padding-left: 2%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(213, 217, 219);
+}
+
+.box3{
+    margin-top: 1%;
+    width: 450px;
+    height: 750px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(213, 217, 219);
+}
+
+
+
+
+p#intro{
+    font-size:15px
+}
+
+
+.most-popular{
+    margin-top: -22%;
+    padding-left: 20%;
+    font-size:11px;
+    background-image: linear-gradient(to left,#47bce7 ,#30e782 );
+    border-style: ridge;
+    border-width: 1px;
+    border-color: rgb(85, 187, 231);
+}
+
+
+.title1{
+    font-size: 25px;
+}
+
+p#p1{
+    padding-left: 45%;
+    padding-top: 10%;
+    font-size:17px
+    
+}
+
+p#super1{
+    margin-top:10px;
+    margin-left:95px;
+}
+
+p#new-price1{
+    font-size: 60px;
+    margin-top:-50px;
+    margin-left:-17px;
+
+}
+
+p#per-month1{
+    margin-top:-85px;
+    margin-left:280px;
+}
+
+p#yearly1{
+    margin-top:-10px;
+    margin-left:180px;
+}
+
+
+
+
+.title2{
+    margin-top: 25%;
+    font-size: 25px;
+}
+
+p#p2{
+    padding-left: 40%;
+    padding-top: 10%;
+    font-size:17px
+}
+p#new-price2{
+    font-size: 60px;
+    margin-top:-40px;
+    margin-left:15px;
+
+}
+
+p#super2{
+    margin-top:-1px;
+    margin-left:70px;
+}
+
+p#per-month2{
+    margin-top:-85px;
+    margin-left:255px;
+}
+
+p#yearly2{
+    margin-top:-10px;
+    margin-left:-90px;
+}
+
+
+
+
+
+
+.title3{
+    font-size: 25px;
+
+}
+
+p#p3{
+    padding-left: 40%;
+    padding-top: 10%;
+    font-size:17px
+}
+
+p#new-price3{
+    font-size: 60px;
+    margin-top:-40px;
+    margin-left:15px;
+}
+
+p#super3{
+    margin-top:-1px;
+    margin-left:70px;
+}
+
+p#per-month3{
+    margin-top:-85px;
+    margin-left:255px;
+}
+
+p#yearly3{
+    margin-top:-10px;
+    margin-left:-90px;
+}
+
+
+
+button#btn1{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 20px 140px;
+    border-radius: 40px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+button#btn2{
+
+    padding: 20px 115px;
+    border-radius: 30px;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button#btn3{
+
+    padding: 20px 115px;
+    border-radius: 30px;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+}
