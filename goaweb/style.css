@@ -1,0 +1,281 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 2552px) 
+{
+    
+    body {
+        margin-left: 6rem;
+        margin-top: 5rem;
+    }
+    
+    #transback{
+        background-image: url(goa.png);
+        background-size: 100%;
+        display: inline-block;
+        opacity: 50%;
+        margin-top: 356px;
+        margin-left: 0px;
+        width: 140rem;
+        height: 100rem;
+        content: "";
+        
+    }
+
+    #goalogo{
+        position: relative;
+        top: -100rem;
+        left: 62rem;
+        width: 15rem;
+        height: 19rem;
+    }
+
+    #goalogo1{
+        position: absolute;
+        top: 6.1rem;
+        left: 132.1rem;
+        width: 15rem;
+        height: 19rem;
+        clip: rect(150px,116px,324px,-5px);
+    }
+
+    #goaname{
+        position: relative;
+        color:blue ;
+        top: -102rem;
+        left: 40rem;
+        font-size: 5rem;
+        opacity: 60%;
+        background-repeat: repeat-x;
+                    
+    }
+
+    #goaname::after{
+        content: "\a                             GOA";
+        white-space: pre;
+        color: rgb(134, 138, 138);
+    }
+
+    #goainfo{
+        font-size: 34pt ;
+        width: 125.30000000000001rem;
+        margin-top: -101rem;
+        margin-left: 7rem;
+        margin-right: -70rem;
+        text-align: justify;
+        font-size: 2.83rem;
+        
+    }
+
+    #goainfo>span:nth-child(1)
+    {
+        color: rgb(0, 0, 0);
+        font-size: 3rem;
+    }
+
+    #goaimg{
+        position: absolute;
+        padding-bottom: 51px;
+        top: 5rem;
+        left: 132rem;
+        width: 15rem;
+        height: 20rem;
+        clip: rect(165px,254px,324px,118px);
+
+    }
+
+    #bottom{
+        position: relative;
+        font-size: 2rem;
+        top: 10rem;
+        
+    }
+
+    #header
+    {
+        margin-top: -9.4rem;
+        height: 5.2rem;
+        width: 140rem;
+        background-color: aqua;
+        padding-bottom: 6rem;
+    }
+
+    #rightbar{
+        margin-top: -11.5rem;
+        background-color: rgb(248 151 15);
+        height: 29.4rem;
+        width: 37.3rem;
+    }
+
+    div#leftbar {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    #footer{
+        margin-left: 0rem;
+        padding-left: 70rem;
+        padding-right: 30rem;
+        background-color: yellow;
+        height: 16rem;
+        width: 40rem;
+    }
+
+    .slk{
+        margin-left: 60rem;
+    }
+
+    .blk:nth-child(2){
+        border: solid 2px red;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 3rem;
+        padding-top: 1.9rem;
+        margin-left: 48rem;
+        width: 9rem;
+        margin-top: -2.4rem;
+    }
+    .blk:nth-child(4){
+        border: solid 2px red;
+        padding-left: 2rem;
+        padding-right: 1rem;
+        padding-bottom: 5.1rem;
+        padding-top: 2rem;
+        margin-top: -16.5rem;
+        margin-left: 74rem;
+        width: 10rem;
+    }
+
+    #list1>li:nth-child(1)
+    {
+        padding-left: 8rem;
+        font-size: 2rem;
+    }
+
+    #list1>li:nth-child(2)
+    {
+        padding-left: 5rem;
+        font-size: 2rem;
+    }
+
+    #list2>li:nth-child(1)
+    {
+        margin-top: -6rem;
+        margin-left: 20rem;
+        padding-left: 17rem;
+        font-size: 2rem;
+    }
+    #list2>li:nth-child(2)
+    {   
+        margin-top: -0.4rem;
+        margin-left: 20.2rem;
+        padding-left: 1rem;
+        font-size: 2.4rem;
+        color: blue;
+    }
+
+
+    div#copyright 
+    {
+        white-space: nowrap;
+        font-size: 3rem;
+        margin-left: 79rem;
+        margin-top: 7rem;
+    }
+
+    span#year
+    {   
+        font-style: italic;
+        margin-left: 27rem;
+        font-size: 3rem;
+    }
+
+    div#copyright>text:nth-child(n)
+    {
+        font-size: 10rem;
+    }
+
+    .slk:nth-child(1)
+    {
+        white-space: nowrap;
+        color: rgb(0, 0, 0);
+        font-size: 1.9rem;
+        margin-left: 37.6rem;
+    }
+
+
+    .slk:nth-child(3) 
+    {
+        color: red;
+        margin-left: 60rem;
+        font-size: 2rem;
+        white-space: nowrap;
+    }
+
+    .slk:nth-child(5) 
+    {
+        top: -57px;
+        left: 443px;
+        position: relative;
+        color: black;
+        margin-left: 60rem;
+        font-size: 1.8rem;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+
+    input[type="button"] {
+        margin-left: -70rem;
+        margin-top: 0rem;
+        width: 11rem;
+        height: 3.2rem;
+        color: #d8c8c8;
+        background-color: red;
+        font-size: 2rem;
+        border-width: 3px;
+        border: solid;
+        border-color: black;
+    }
+
+    div#rightbar>span:nth-of-type(1)
+    {
+        font-size: 1.8rem;
+        font-weight: 700;
+        top: 160px;
+        left: -2px;
+        position: relative;
+        color: rgb(0, 0, 0);
+    }
+
+    div#rightbar>span:nth-of-type(2)
+    {
+        font-size: 1.8rem;
+        font-weight: 700;
+        top: -61px;
+        left: 26px;
+        position: relative;
+        color: rgb(0 0 0);
+    }
+
+    ul li:last-child::marker
+    {
+        font-size: 2rem;
+        color: blue;
+    
+    }
+
+    td
+    {
+        position: relative;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        padding-left: 0.6rem;
+        border-width: medium;
+        max-width: 211px;
+        overflow: visible;
+    }
+
+    div#goainfo>span:nth-of-type(1)
+    {
+        font-size:40t;
+        color:rgb(0, 0, 0)
+    }
+
+}
