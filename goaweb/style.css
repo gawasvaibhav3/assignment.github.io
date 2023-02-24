@@ -2,7 +2,7 @@
 {
     
     body {
-        margin-left: 6rem;
+        margin-left: 21rem;
         margin-top: 5rem;
     }
     
@@ -11,73 +11,83 @@
         background-size: 100%;
         display: inline-block;
         opacity: 50%;
-        margin-top: 356px;
+        margin-top: 22px;
         margin-left: 0px;
-        width: 140rem;
-        height: 100rem;
+        width: 84rem;
+        height: 60rem;
         content: "";
         
     }
 
     #goalogo{
+        margin-top: 876px;
         position: relative;
-        top: -100rem;
-        left: 62rem;
-        width: 15rem;
-        height: 19rem;
+        top: -115rem;
+        width: 140px;
+        height: 176px;
+        left: 38rem;
     }
 
     #goalogo1{
         position: absolute;
-        top: 6.1rem;
-        left: 132.1rem;
+        padding-bottom: 51px;
+        top: -43px;
+        left: 1214px;
         width: 15rem;
-        height: 19rem;
-        clip: rect(150px,116px,324px,-5px);
+        height: 20rem;
+        clip: rect(165px,254px,324px,118px);
     }
 
     #goaname{
         position: relative;
-        color:blue ;
-        top: -102rem;
-        left: 40rem;
-        font-size: 5rem;
-        opacity: 60%;
+        color: blue;
+        top: -116rem;
+        left: 24rem;
+        font-size: 50px;
+        opacity: 40%;
+        font-variant: small-caps;
         background-repeat: repeat-x;
                     
     }
 
     #goaname::after{
-        content: "\a                             GOA";
+        content: "\a                                GOA";
         white-space: pre;
-        color: rgb(134, 138, 138);
+        color: rgb(30, 31, 31);
+        font-size: 45px;
     }
 
     #goainfo{
-        font-size: 34pt ;
-        width: 125.30000000000001rem;
-        margin-top: -101rem;
-        margin-left: 7rem;
+        position: relative;
+        z-index: 10;
+        width: 72.3rem;
+        margin-top: -117rem;
+        margin-left: 5rem;
         margin-right: -70rem;
         text-align: justify;
-        font-size: 2.83rem;
+        font-size: 26px;
         
     }
 
-    #goainfo>span:nth-child(1)
+    #goainfo span span
     {
         color: rgb(0, 0, 0);
-        font-size: 3rem;
+        font-size: 50px !important;
+    }
+
+    #goainfo span
+    {
+        color: rgb(0, 0, 0);
+        font-size: 22px;
     }
 
     #goaimg{
         position: absolute;
-        padding-bottom: 51px;
-        top: 5rem;
-        left: 132rem;
+        top: -30px;
+        left: 1215px;
         width: 15rem;
-        height: 20rem;
-        clip: rect(165px,254px,324px,118px);
+        height: 19rem;
+        clip: rect(150px,116px,324px,-5px);
 
     }
 
@@ -90,32 +100,42 @@
 
     #header
     {
-        margin-top: -9.4rem;
-        height: 5.2rem;
-        width: 140rem;
+        margin-top: -10.7rem;
+        height: 0rem;
         background-color: aqua;
+        width: 1344px;
         padding-bottom: 6rem;
     }
 
+    ol#list1 {
+        margin-left: -18px;
+    }
+
+    #leftbar div:nth-child(2){
+        opacity: 0%;
+    }
+
+
     #rightbar{
-        margin-top: -11.5rem;
+        margin-top: -144px;
         background-color: rgb(248 151 15);
-        height: 29.4rem;
-        width: 37.3rem;
+        height: 311px;
+        width: 22.3rem;
     }
 
     div#leftbar {
-        font-size: 2rem;
+        font-size: 25px;
         font-weight: 500;
     }
 
     #footer{
         margin-left: 0rem;
-        padding-left: 70rem;
-        padding-right: 30rem;
+        margin-top: -10px;
+        padding-left: 36rem;
+        padding-right: 48.04rem;
         background-color: yellow;
-        height: 16rem;
-        width: 40rem;
+        height: 10rem;
+        width: 1px;
     }
 
     .slk{
@@ -128,9 +148,11 @@
         padding-right: 2rem;
         padding-bottom: 3rem;
         padding-top: 1.9rem;
-        margin-left: 48rem;
-        width: 9rem;
-        margin-top: -2.4rem;
+        margin-left: 456px;
+        width: 60px;
+        height: 63px;
+        font-size: 18px;
+        margin-top: -38px;
     }
     .blk:nth-child(4){
         border: solid 2px red;
@@ -138,36 +160,37 @@
         padding-right: 1rem;
         padding-bottom: 5.1rem;
         padding-top: 2rem;
-        margin-top: -16.5rem;
-        margin-left: 74rem;
-        width: 10rem;
+        margin-top: -180px;
+        height: 25px;
+        margin-left: 44rem;
+        width: 84px;
+        font-size: 18px;
     }
 
-    #list1>li:nth-child(1)
-    {
-        padding-left: 8rem;
-        font-size: 2rem;
+
+    #list1>li:nth-child(1) {
+        padding-left: 7rem;
+        font-size: 18px;
     }
 
-    #list1>li:nth-child(2)
-    {
-        padding-left: 5rem;
-        font-size: 2rem;
+    #list1>li:nth-child(2) {
+        padding-left: 88px;
+        font-size: 17px;
     }
 
     #list2>li:nth-child(1)
     {
-        margin-top: -6rem;
-        margin-left: 20rem;
-        padding-left: 17rem;
-        font-size: 2rem;
+        margin-top: -67px;
+        margin-left: 16rem;
+        padding-left: 6rem;
+        font-size: 18px;
     }
     #list2>li:nth-child(2)
     {   
         margin-top: -0.4rem;
-        margin-left: 20.2rem;
-        padding-left: 1rem;
-        font-size: 2.4rem;
+        margin-left: 259.2px;
+        padding-left: 0px;
+        font-size: 18px;
         color: blue;
     }
 
@@ -175,16 +198,16 @@
     div#copyright 
     {
         white-space: nowrap;
-        font-size: 3rem;
-        margin-left: 79rem;
-        margin-top: 7rem;
+        font-size: 31px;
+        margin-left: 46rem;
+        margin-top: 84px;
     }
 
-    span#year
-    {   
+    span#year {
+        margin-left: 207px !important;
+        margin-top: -11px !important;
+        position: absolute;
         font-style: italic;
-        margin-left: 27rem;
-        font-size: 3rem;
     }
 
     div#copyright>text:nth-child(n)
@@ -211,64 +234,69 @@
 
     .slk:nth-child(5) 
     {
-        top: -57px;
-        left: 443px;
+        top: -38px;
+        left: -115px;
         position: relative;
         color: black;
         margin-left: 60rem;
-        font-size: 1.8rem;
+        font-size: 18px;
         font-weight: 700;
         white-space: nowrap;
     }
 
     input[type="button"] {
-        margin-left: -70rem;
+        margin-left: -36rem;
         margin-top: 0rem;
-        width: 11rem;
-        height: 3.2rem;
-        color: #d8c8c8;
+        width: 157px;
+        height: 47px;
+        color: #ebe7e7;
         background-color: red;
         font-size: 2rem;
-        border-width: 3px;
-        border: solid;
+        border: ridge;
+        border-width: medium;
         border-color: black;
     }
 
     div#rightbar>span:nth-of-type(1)
     {
-        font-size: 1.8rem;
+        font-size: 16px;
         font-weight: 700;
-        top: 160px;
-        left: -2px;
+        top: 102px;
+        left: -243px;
         position: relative;
         color: rgb(0, 0, 0);
     }
 
     div#rightbar>span:nth-of-type(2)
     {
-        font-size: 1.8rem;
+        font-size: 16px;
         font-weight: 700;
-        top: -61px;
-        left: 26px;
+        top: -40px;
+        left: -370px;
         position: relative;
         color: rgb(0 0 0);
     }
 
     ul li:last-child::marker
     {
-        font-size: 2rem;
+        font-size: 25px;
         color: blue;
     
     }
 
+    table {
+        position: absolute;
+        left: 702px;
+        top: 425px;
+    }
+
     td
     {
-        position: relative;
+        font-size: 18px;
+        position: inherit;
         padding-top: 0.3rem;
         padding-bottom: 0.3rem;
-        padding-left: 0.6rem;
-        border-width: medium;
-        max-width: 211px;
+        max-width: 116px;
         overflow: visible;
     }
 
@@ -276,6 +304,10 @@
     {
         font-size:40t;
         color:rgb(0, 0, 0)
+    }
+
+    #leftbar div:nth-child(2){
+        opacity: 0%;
     }
 
 }
