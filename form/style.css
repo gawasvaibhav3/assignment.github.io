@@ -1,0 +1,150 @@
+
+body{
+    font-size: 1rem;
+}
+
+.title{
+    background-color: rgb(16, 245, 245);
+    font-size: 1.4rem;
+    border: solid;
+    height: 4rem;
+    padding-left:21rem ;
+    margin-right: 0rem;
+    margin-left: 1rem;
+}
+
+h2{
+    margin-top: 1rem;
+}
+
+table{
+    color: rgb(38, 9, 255);
+    background-color: aliceblue;
+    margin-left: 40rem !important;
+    margin-top: -36.4rem !important;
+    width: 55rem;
+    height: 1rem;
+}
+
+.first_block{
+    background-color: rgb(200, 200, 200);
+    font-size: 1rem;
+    border: solid;
+    margin-right: 55rem;
+    margin-left: 1rem;
+    margin-top: -1rem;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+button{
+    margin-top: 1rem;
+    margin-left: .5rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+
+input{
+    width: 25rem;
+    height: 1.5rem;
+}
+
+input#r1{
+    width: 1rem;
+
+    margin-left: .5rem;
+}
+
+input#r2{
+    width: 1rem;
+    margin-left: 1rem;
+}
+
+input#r3{
+    width: 1rem;
+    margin-left: 1rem;
+}
+
+input#fname{
+    border-radius: 3pt;
+    margin-left: .7rem;
+    width: 7rem;
+}
+
+input#lname{
+    border-radius: 3pt;
+    margin-left: 1.1rem;
+    width: 7rem;
+}
+
+
+input#dob{
+    margin-left: 2px;
+    border-radius: 3pt;
+    width: 7rem;
+}
+
+input#email{
+    border-radius: 3pt;
+    margin-left: 2.9rem;
+    width: 12rem;
+}
+
+
+label:nth-child(2)
+{
+    width: 10rem;
+    margin-left: .1rem;
+}
+
+label:nth-child(4)
+{
+    
+    margin-left: .5rem;
+}
+
+table th:nth-child(1){
+    width: 2rem;
+}
+
+table th:nth-child(2){
+    width: 2rem;
+}
+table th:nth-child(3){
+    width: .1rem;
+}
+
+table th:nth-child(4){
+    width: 1rem;
+}
+
+table th:nth-child(5){
+    width: 1rem;
+}
+table th:nth-child(6){
+    width: 1rem;
+}
+table th:nth-child(7){
+    width: 10rem;
+}
+
+select#s1{
+    border-radius: .2rem;
+    margin-left: 1.3rem;
+    height: 1.6rem;
+    width: 9rem;
+}
+
+#checkbox{
+    margin-left: -11rem;
+}
+
+label#cb_id{
+    position: absolute;
+    margin-top: .4rem;
+    margin-left: -11rem;
+}
+
+

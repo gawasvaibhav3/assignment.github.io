@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Registration form</title>
+    <script src="java.js"></script>
+</head>
+<body>
+    <div class="title">
+        <h2>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Student Registration Form </h2>
+    </div>
+    <br/>
+    <div class="first_block">   
+        &nbsp;First Name:<input type="text" name="fname" id="fname"  /><br/><br/>
+        &nbsp;LastName:<input type="text" name="lname" id="lname" /><br/><br/>
+        &nbsp;Gender:
+        <div id="radio">
+            <input type="radio" id="r1" name="gender" value="Male"/>Male
+            <input type="radio" id="r1" name="gender" value="Female"/>Female
+            <input type="radio" id="r1" name="gender" value="Others" />Others
+        </div>
+        </br>
+        &nbsp;Date of Birth:<input type="date" name="dob" id="dob" placeholder="dd/mm/yyyy"/><br/><br/>
+        &nbsp;Email:<input type="text" name="email" id="email" placeholder=" example@gmail.com"/><br/><br/>
+        &nbsp;Semester:
+        <select id="s1" name="semester">
+            <option value="Sem1">Sem1</option>
+            <option value="Sem2">Sem2</option>
+            <option value="Sem3">Sem3</option>
+            <option value="Sem4">Sem4</option>
+            <option value="Sem5">Sem5</option>
+            <option value="Sem6">Sem6</option>
+        </select>
+        <br>
+        <br>
+        &nbsp;Courses
+        <div id="checkbox">
+            <br>
+            <input type="checkbox" id="cb" name="cb" value="Course 1">
+            <label id="cb_id" for="cb1">Course1</label><br>
+
+            <input type="checkbox" id="cb" name="cb" value="Course 2">
+            <label id="cb_id" for="cb2">Course2</label><br>
+
+            <input type="checkbox" id="cb" name="cb" value="Course 3">
+            <label id="cb_id" for="cb3">Course3</label><br>
+
+            <input type="checkbox" id="cb" name="cb" value="Course 4 ">
+            <label id="cb_id" for="cb4">Course4</label><br>
+        </div>
+        <div>
+            <br/>
+            <br/>
+            <button onclick="submit();">Submit</button>
+        </div>
+    </div>
+    <table border="1" id="myTable">
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Gender</th>
+            <th>Date of birth</th>
+            <th>Email</th>
+            <th>Semester</th>
+            <th>Course</th>
+        </tr>
+    </table>
+</body>
+</html>
