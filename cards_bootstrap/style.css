@@ -1,0 +1,37 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40em;
+}
+
+.accordionTitle {
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h2.accordionTitle {
+  padding-left: 1rem;
+}
+
+img#img {
+  margin-left: 28rem;
+  margin-top: -3rem;
+  width: 7rem;
+}
+
+img#img1 {
+  width: 39rem;
+  height: 15rem;
+  margin-top: 1rem;
+}
+
+.accordionTitle + .accordionContent {
+  display: none;
+}
+
+.accordionTitle.is-open + .accordionContent {
+  display: block;
+}
