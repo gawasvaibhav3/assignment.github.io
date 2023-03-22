@@ -1,0 +1,38 @@
+body {
+    background-color: floralwhite;
+}
+
+label {
+    font-size: 2rem;
+}
+
+button.btn.btn-primary {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+img{
+    margin-top: -8rem;
+    margin-left: -5rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    width: 4rem;
+    vertical-align: middle;
+    border-style: none;
+}
+
+img#img1 {
+    width: 10rem;
+    margin-left: 2rem;
+    margin-top: -1rem;
+}
+
+img#img2 {
+    width: 10rem;
+    margin-left: 2rem;
+    margin-top: -1rem;
+}
+
+th#image0 {
+    padding-left: 11rem;
+}

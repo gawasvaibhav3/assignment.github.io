@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Products catlog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="opt">
+        <div class="row my-4">
+          <div class="col-4">
+            <label for="categorySelect">Select a category:</label>
+            <select id="s1" class="form-select">
+              <option value="s0" >Select a category</option>
+              <option value="smartphones" >Smartphones</option>
+              <option value="laptops" >Laptops</option>
+              <option value="fragrances" >Fragrances</option>
+              <option value="skincare" >Skincare</option>
+              <option value="groceries" >Groceries</option>
+              <option value="home-decoration" >Home-Decoration</option>
+            </select>
+          </div>
+          <div class="col-8">
+            <button onclick="submit()"  class="btn btn-primary">Fetch Data</button>
+          </div>
+        </div>
+        <table id="productTable" class="table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Brand</th>
+              <th>Product Name</th>
+              <th>Price</th>
+              <th>Category</th>
+              <th id="image0">Images</th>
+            </tr>
+          </thead>
+          <tbody id="data-output">
+
+          </tbody>
+        </table>
+      </div>
+      
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="java.js"></script>
+
+</body>
+</html>
